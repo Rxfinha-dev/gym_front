@@ -1,0 +1,45 @@
+/* SideMenu.css */
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #2E66A2;
+    color: white;
+    transform: translateX(-250px);
+    transition: transform 0.3s ease;
+    padding-top: 60px;
+    z-index: 1000;
+}
+
+.side-menu.open {
+    transform: translateX(0);
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu ul li {
+    padding: 15px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.side-menu ul li:hover {
+    background-color: #0056b3;
+}
+
+.exit{
+    text-align: left;
+    position: fixed;
+   
+    bottom: 6.5%;
+    width: 100%;
+
+
+
+}
